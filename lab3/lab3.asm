@@ -37,8 +37,7 @@ _start:
 	;Check chan le
 	mov al, [so]
 	and al, 01h   ;dung phep or de check, neu so chan thif zf=0, neu so le thi zf=1
-	cmp al, 0
-	je sochan
+	jz sochan
 
 	;Neu la so le
 	mov eax, 4
