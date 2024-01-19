@@ -74,7 +74,7 @@ kocochuthg:
 	jmp ketthuc
 
 chuyendoi:
-	;vong lap cac ky tu trong day input (thanh ghi rdi) va xuat ra thanh ghi rsi
+	;vong lap cac ky tu trong day input (thanh ghi edi) va xuat ra thanh ghi esi
 	mov eax, 0
 	vonglap:
 	movzx ecx, byte [edi + eax] ;Nhap chu tiep theo
